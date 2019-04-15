@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="libs/bootstrap-4/css/bootstrap.css">
+	<title>Calculadora</title>
+</head>
+<body style="margin:100px">
+<div class="container" style="background-color: #231B14; width: 280px; height: 370px" >
+	<div class="container" style="margin-left: 10px;">
+		<input id="barra" type="response" style="background-color:white; border-color: #008FFF; border-radius: 100px; margin: 10px">
+    </div>
+<br>
+    <div class="row">
+	<div class="col-md-3">	
+		<button class="btn btn-primary" tipo-botton="delete_all" style="background-color: #231B14;">CE</button> 
+	</div>
+	<div class="col-md-3">	
+		<button class="btn btn-primary" valor="3√" tipo-botton="operation" style="background-color: #231B14;">3√</button>
+	</div>
+	<div class="col-md-3">
+		<button class="btn btn-primary" valor="√" tipo-botton="operation" style="background-color: #231B14;">√</button>	
+	</div>
+	<div class="col-md-3">
+		<button class="btn btn-primary" valor="" tipo-botton="operation"  style="background-color: #231B14;">%</button>		
+	</div>
+    </div>	
+<br>
+	<div class="row">
+		<div class="col-md-3">
+		<button class="btn btn-primary" valor="7" tipo-botton="number" 	style="background-color: #231B14">7</button>
+	</div>
+	<div class="col-md-3">	
+		<button class="btn btn-primary" valor="8" tipo-botton="number" 	style="background-color: #231B14">8</button>
+	</div>
+	<div class="col-md-3">
+		<button class="btn btn-primary" valor="9" tipo-botton="number" 	style="background-color: #231B14">9</button>
+	</div>
+		<div class="col-md-3">
+		<button class="btn btn-primary" valor="/" tipo-botton="operation" style="background-color: #231B14;">/</button>
+		</div>
+	</div> 
+<br>
+	<div class="row">
+	<div class="col-md-3">	
+		<button class="btn btn-primary" valor="4" tipo-botton="number" 	style="background-color: #231B14">4</button>
+	</div>
+    <div class="col-md-3">
+        <button class="btn btn-primary" valor="5" tipo-botton="number" 	style="background-color: #231B14">5</button>
+    </div>
+		
+	<div class="col-md-3">	
+		<button class="btn btn-primary" valor="6" tipo-botton="number" 	style="background-color: #231B14">6</button>
+	</div>	
+    <div class="col-md-3"> 
+        <button class="btn btn-primary" valor="*" tipo-botton="operation" style="background-color: #231B14">*</button>
+    </div>
+	</div>
+<br>
+	<div class="row">
+ 		<div class="col-md-3"> 
+		<button class="btn btn-primary" valor="1" tipo-botton="number" 	style="background-color: #231B14;">1</button>
+		</div>
+		<div class="col-md-3">
+		<button class="btn btn-primary" valor="2" tipo-botton="number" 	style="background-color: #231B14;">2</button>
+		</div>
+		<div class="col-md-3"> 
+		<button class="btn btn-primary" valor="3" tipo-botton="number" 	style="background-color: #231B14;">3</button>
+		</div>
+	<div class="col-md-3">	
+		<button class="btn btn-primary" valor="-" tipo-botton="operation" style="background-color: #231B14">-</button>
+	</div>
+	</div>
+<br>
+	<div class="row">
+	<div class="col-md-3">	
+		<button class="btn btn-primary" valor="0" tipo-botton="number" 	 style="background-color: #231B14">0</button> 
+	</div>
+	<div class="col-md-3">	
+		<button class="btn btn-primary" tipo-botton="delete" style="background-color: #231B14"><i class="fas fa-backspace"></i>c</button>
+	</div>
+	<div class="col-md-3">	 
+		<input class="btn btn-primary" id="igual" type="button" tipo-botton="response" resultado value="=">
+	</div>
+	<div class="col-md-3">	
+		<button class="btn btn-primary" valor="+" tipo-botton="operation" style="background-color: #231B14">+</button>
+	</div> 
+	</div> 
+</div> 
+<script src="js/jquery.js"></script>
+<script src="libs/bootstrap-4/js/bootstrap.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
